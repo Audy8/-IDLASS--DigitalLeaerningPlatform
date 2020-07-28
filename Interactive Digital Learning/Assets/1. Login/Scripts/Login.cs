@@ -15,8 +15,8 @@ public class Login : MonoBehaviour {
 		bool N = false;
 		bool P = false;
 		if (Name != ""){
-			if (System.IO.File.Exists(@"D:\Unity\Encyclopedia\UnityTestFolder\"+Name+".txt")){
-				lines = File.ReadAllLines(@"D:\Unity\Encyclopedia\UnityTestFolder\"+Name+".txt");
+			if (System.IO.File.Exists(@"D:\IDLASS Project\-IDLASS--DigitalLeaerningPlatform\Users\"+Name+".txt")){
+				lines = File.ReadAllLines(@"D:\IDLASS Project\-IDLASS--DigitalLeaerningPlatform\Users\"+Name+".txt");
 				N = true;
 			} else {
 				Debug.LogWarning("Username Field is Incorrect");
@@ -25,7 +25,7 @@ public class Login : MonoBehaviour {
 			Debug.LogWarning("Username Field is empty");
 		}
 		if (Password != ""){
-			if (System.IO.File.Exists(@"D:\Unity\Encyclopedia\UnityTestFolder\"+Name+".txt")){
+			if (System.IO.File.Exists(@"D:\IDLASS Project\-IDLASS--DigitalLeaerningPlatform\Users\"+Name+".txt")){
 				int i = 1;
 				foreach(char c in lines[2]){
 					i++;

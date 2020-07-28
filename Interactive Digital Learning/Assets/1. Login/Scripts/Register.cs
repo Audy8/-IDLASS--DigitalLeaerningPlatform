@@ -27,7 +27,7 @@ public class Register : MonoBehaviour {
 		bool PC = false;
 		EmailValid = false;
 		if (Name != ""){
-			if (!System.IO.File.Exists(@"D:\Unity\Encyclopedia\UnityTestFolder\"+Name+".txt")){
+			if (!System.IO.File.Exists(@"D:\IDLASS Project\-IDLASS--DigitalLeaerningPlatform\Users\"+Name+".txt")){
 				N = true;
 				username.transform.GetChild(3).GetComponent<CanvasRenderer>().SetColor(Color.green);
 				username.transform.GetChild(3).GetComponent<CanvasRenderer>().SetAlpha(0.7f);
@@ -107,7 +107,7 @@ public class Register : MonoBehaviour {
 			}
 			
 			Form = (Name+Environment.NewLine+Email+Environment.NewLine+Password);
-			System.IO.File.WriteAllText(@"D:\Unity\Encyclopedia\UnityTestFolder\"+Name+".txt", Form);
+			System.IO.File.WriteAllText(@"D:\IDLASS Project\-IDLASS--DigitalLeaerningPlatform\Users\"+Name+".txt", Form);
 			print ("Registration Successful");
 			username.GetComponent<InputField>().text = "";
 			email.GetComponent<InputField>().text = "";
