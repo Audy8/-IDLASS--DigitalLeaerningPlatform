@@ -1,0 +1,10 @@
+What is condenser and how it works?
+The condensing unit (sometimes incorrectly referred to as compressor) is usually located outside. Inside the condenser, the refrigerant vapor is compressed and forced through a heat exchange coil, condensing it into a liquid and rejecting the heat previously absorbed from the cool indoor area.
+
+What does a Condenser do? 
+Is laboratory apparatus used to condense vapors that is, turn them into liquids by cooling them down.
+The simplest and oldest condenser is just a long tube through which the vapors are directed, with the outside air providing the cooling.
+
+What  are the type of condenser?
+Condensers. A condenser's function is to allow high pressure and temperature refrigerant vapor to condense and eject heat. There are three main types: air-cooled, evaporative, and water-cooled condensers.
+

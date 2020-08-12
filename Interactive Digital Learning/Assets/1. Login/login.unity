@@ -815,9 +815,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 541723096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35045f8040975f34e8ed639ecec76bbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7f82840b071604da9d3a26d6319cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 1883479756}
 --- !u!114 &541723099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,6 +1061,7 @@ GameObject:
   - component: {fileID: 603619302}
   - component: {fileID: 603619304}
   - component: {fileID: 603619303}
+  - component: {fileID: 603619305}
   m_Layer: 5
   m_Name: loginPenal
   m_TagString: Untagged
@@ -1125,6 +1127,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603619301}
   m_CullTransparentMesh: 0
+--- !u!114 &603619305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603619301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea9bc5f65d35324b9cf841580ea469c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username: {fileID: 568187999}
+  password: {fileID: 456170774}
+  Name: 
+  lines: []
 --- !u!1 &617434669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1556,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 858400133}
+      - m_Target: {fileID: 1883479760}
         m_MethodName: RegisterButton
         m_Mode: 1
         m_Arguments:
@@ -2116,7 +2134,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1123892951}
+      - m_Target: {fileID: 603619305}
         m_MethodName: LoginButton
         m_Mode: 1
         m_Arguments:
@@ -3427,6 +3445,7 @@ GameObject:
   - component: {fileID: 1883479757}
   - component: {fileID: 1883479759}
   - component: {fileID: 1883479758}
+  - component: {fileID: 1883479760}
   m_Layer: 5
   m_Name: RegisterPenal
   m_TagString: Untagged
@@ -3491,6 +3510,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883479756}
   m_CullTransparentMesh: 0
+--- !u!114 &1883479760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883479756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b382fb16a8aba45a16f4a3eada917f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username: {fileID: 404749810}
+  email: {fileID: 1707568430}
+  password: {fileID: 1238678443}
+  passwordConformation: {fileID: 950748259}
+  Name: 
 --- !u!1 &1978587421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,9 +3576,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1978587421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35045f8040975f34e8ed639ecec76bbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7f82840b071604da9d3a26d6319cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Panel: {fileID: 1883479756}
 --- !u!114 &1978587424
 MonoBehaviour:
   m_ObjectHideFlags: 0
