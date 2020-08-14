@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class OpenAndClosePanel : MonoBehaviour
 {
-   
-   public GameObject Panel;
-   
-   public void openpanel()
-   {
-	   if(Panel != null)
-	   {
-		   bool isActive = Panel.activeSelf;
-		   
-		   Panel.SetActive(!isActive);
-	   }
-   }
+    public GameObject gameObject;
+	public GameObject gameObject1;
+	//public GameObject gameObject2;
+	
+	bool active;
+	
+	public void OpenPanelandClose()
+	{
+		
+			gameObject.transform.gameObject.SetActive(true);
+			active= true;
+		
+			gameObject1.transform.gameObject.SetActive(false);
+			active= false;
+			
+			/*gameObject2.transform.gameObject.SetActive(false);
+			active= false;*/
+	}
 }
